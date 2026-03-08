@@ -93,6 +93,9 @@ String about_info[] =
   "",
   "     CLIPS:   Gary Riley - NASA",
   "              Brian Donnell - NASA",
+  "",
+  "Built for Linux By:",
+  "              Carlos J. Bravo I.",
   NULL,
   };
 

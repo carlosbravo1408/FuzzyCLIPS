@@ -83,7 +83,7 @@
 #endif
 
 #ifndef BANNER_STRING
-#define BANNER_STRING "        FuzzyCLIPS V6.10d (10/22/2004)\n"
+#define BANNER_STRING "        FuzzyCLIPS V6.10d (10/22/2004) - Built by Carlos B. for VIU-MIAR\n"
 #endif
 
 /*************************/
