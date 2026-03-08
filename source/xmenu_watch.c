@@ -179,6 +179,7 @@ void WatchWindow(
                                         args, n);
   XtAddCallback(cancel,XtNcallback,PopdownSelect,(XtPointer)watchForm);
   XtPopup(watchShell,XtGrabExclusive);
+  RegisterPersistentClose(watchShell, watchForm, PopdownSelect);
   }
 
 

@@ -69,6 +69,7 @@ void ResetCallback(
                        (XtPointer) confirm);
 
     XtPopup(confirmshell, XtGrabNonexclusive);
+    CloseWidget(confirmshell);
     }
 
   else
@@ -174,6 +175,7 @@ void ClearCLIPSCallback(
   XawDialogAddButton(confirm, "Cancel", CancelPopupSelect, (XtPointer) confirm);
 
   XtPopup(confirmshell, XtGrabNonexclusive);
+  CloseWidget(confirmshell);
 
     /* ============================================ */
     /*  Set this flag to True to break out of the   */

@@ -285,6 +285,7 @@ w),NULL,0);
                                         args, n);
     XtAddCallback(Okay,XtNcallback,OkayOptionsCallback,(XtPointer)NULL);
     XtPopup(optionsShell,XtGrabNonexclusive);
+    RegisterPersistentClose(optionsShell, optionsForm, PopdownSelect);
   }
 
 

@@ -604,6 +604,7 @@ static void AboutXCLIPS(
                 (XtPointer)about_form);
 
   XtPopup(about, XtGrabNone);
+  CloseWidget(about);
   }
 
 /*******************************************************************************
