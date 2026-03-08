@@ -118,7 +118,7 @@ void InitializeInterface()
     XclipsExit(0);
     ExitRouter(0);
   }
-  PrintRouter("wclips", "                  XCLIPS for:");
+  PrintRouter("wclips", "XCLIPS for:");
 }
 
 /*******************************************************************************
