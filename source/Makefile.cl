@@ -50,7 +50,7 @@ ALL_OBJS = $(OBJS) $(FUZZY_OBJS)
 	$(CC) $(CFLAGS) $(DEBUG) $<
 
 fz_clips : $(ALL_OBJS) 
-	$(CC) -o fz_clips $(ALL_OBJS) $(LIBS)
+	$(CC) -static -o fz_clips $(ALL_OBJS) $(LIBS)
 
 # DO NOT DELETE
 
